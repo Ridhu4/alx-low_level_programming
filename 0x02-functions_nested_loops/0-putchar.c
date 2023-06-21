@@ -1,20 +1,25 @@
-#include "alxprogram.h"
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - Print "alxprogram" followed by a new line.
- * Description: You are not allowed to include standard libraries.
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char alxprogram[] = "alxprogram";
-	int r = 0;
+/* Passing arguements to _putchar method */
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	while (alxprogram[r] != '\0')
-	{
-		_putchar(alxprogram[r]);
-		r++;
-	}
-	_putchar('\n');
-
-	return (0);
+return (0);
 }
