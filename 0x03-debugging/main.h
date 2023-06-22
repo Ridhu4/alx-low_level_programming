@@ -1,20 +1,11 @@
-#include "holberton.h"
-/**
- * main - Print "Holberton" followed by a new line.
- * Description: You are not allowed to include standard libraries.
- * Return: 0
- */
-int main(void)
-{
-	char holberton[] = "Holberton";
-	int i = 0;
+#ifndef MAIN_H
+#define MAIN_H
 
-	while (holberton[i] != '\0')
-	{
-		_putchar(holberton[i]);
-		i++;
-	}
-	_putchar('\n');
+#include <stdio.h>
 
-	return (0);
-}
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
+
+#endif /* MAIN_H */
