@@ -1,1 +1,1 @@
-More pointers, arrays and strings
+Solutions to C-Programming related tasks
