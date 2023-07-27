@@ -24,7 +24,7 @@ new->len = len;
 new->next = NULL;
 if (*head == NULL)
 {
-*head = new;		
+*head = new;
 return (new);
 }
 while (temp->next)
