@@ -32,7 +32,7 @@ if (i == idx - 1)
 new->next = temp->next;
 temp->next = new;
 return (new);	
-else
+}else
 temp = temp->next;
 }
 return (NULL);
