@@ -30,4 +30,4 @@ j++;
 night--;
 }
 return (number);
-}i
+}
